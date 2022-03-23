@@ -13,6 +13,8 @@ namespace TesteEnumAnnotations
             
             string displayName = GetDescription(tdp);
             Console.WriteLine($" Funcionou!{displayName}");
+            displayName = GetDescription(tipoDeGarrafa.Dagua);
+            Console.WriteLine($" Funcionou!{displayName}");
         }
 
         /// <summary>Buscar description do Enum.</summary>
